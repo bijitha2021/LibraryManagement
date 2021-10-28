@@ -4,9 +4,7 @@ from tkinter import messagebox
 
 from MyMessageBox import MyMessageBox
 from book_manager import *
-
-
-
+#delete books
 def deleteBook():
     
     bcode = bookInfo1.get().upper()
